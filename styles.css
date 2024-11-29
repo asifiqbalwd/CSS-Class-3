@@ -1,0 +1,95 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #674ea7, #a89acc);
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Container Styling */
+.container {
+  max-width: 450px;
+  height: auto;
+  padding: 20px;
+  border: 4px solid #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Styling */
+.content {
+  border: 3px dashed #9088a4;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Image Section */
+.image-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.image-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #674ea7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #5a3e8c;
+  transform: scale(1.1);
+}
