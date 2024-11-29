@@ -2,8 +2,6 @@
 
 # Full Stack Web Development: CSS Class 3
 
----
-
 ## Features
 
 - **Header Section**:
@@ -30,5 +28,3 @@
 **Asif Iqbal**  
 Beginner Full Stack Web Developer  
 Learning and building exciting projects!
-
----
